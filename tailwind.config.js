@@ -2,6 +2,13 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
+	  colors: {
+		  'custom-black': '#414040',
+		  'custom-grey-1': '#707070',
+		  'custom-grey-2': '#E7E7E7',
+		  'custom-deer': '#B68C5A',
+		  'white': '#FFF'
+	  },
     extend: {},
   },
   plugins: [require('daisyui')],

@@ -3,10 +3,85 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+
+	<!-- Font Awesome Kit -->
+	<script src="https://kit.fontawesome.com/97c53add55.js" crossorigin="anonymous"></script>
+	
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+	<title>Legal Solutions</title>
 	<link rel="stylesheet" href="./styles.css">
+
+<style>
+.font-garamond {
+	font-family: 'EB Garamond', serif;
+}
+.font-poppins {
+	font-family: 'Poppins', sans-serif;
+}
+</style>
+
 </head>
 <body>
-	
+	<!-- Header Section -->	
+	<!-- {{{ -->
+	<header class="container mx-auto">
+		
+		<!-- Navbar -->
+		<!-- {{{ -->
+		<section>
+			<nav class="flex flex-col items-center mx-auto mt-12 space-y-8 md:space-y-0 w-max md:w-auto md:justify-between md:flex-row">
+				<!-- Page logo and name -->
+				<div>
+					<img src="./images/logo2.png" alt="Hammer of Justice">
+				</div>	
+
+				<!-- Menu -->
+				<div class="flex items-center text-base font-normal text-custom-grey-1 gap-3 md:gap-7 font-poppins text-curtom-grey-1">
+					<p>Home</p>	
+					<p class="inline-flex items-center gap-2">Services<i class="fa-solid fa-angle-right"></i></p>
+					<p class="inline-flex items-center gap-2">Cases<i class="fa-solid fa-angle-right"></i></p>
+					<p class="inline-flex items-center gap-2">Blogs<i class="fa-solid fa-angle-right"></i></p>
+					<p>Contact Us</p>
+				</div>
+				
+				<!-- Button -->
+				<div>
+					<button class="text-[#FFF] btn bg-custom-deer px-7">Free Consultation</button>
+				</div>
+			</nav>
+		</section>	
+		<!-- }}} -->
+
+		<!-- Banner Section -->
+		<!-- {{{ -->
+		<section class="mt-[50px] relative ">
+			<!-- Image -->
+			<div class="relative rounded-[10px] w-max mx-auto">
+				<img class="" src="./images/banner.png" alt="">	
+				<!-- Image Overlay -->
+				<div class="absolute inset-0 bg-gradient-to-t from-[#111] via-transparent to-[#11111100]"></div>
+			</div>					
+
+			<!-- Texts -->
+			<div class="absolute inset-0 text-center transform -translate-y-1/2 top-1/2">
+				<h1 class="font-extrabold text-[#FFF] font-garamond text-7xl mx-auto w-[670px] leading-[85px]">We Provide Effective Legal Solutions</h1>	
+				<p class="mt-6 font-poppins text-custom-grey-2 w-[680px] mx-auto">
+					There are many variations of passages of Lorem Ipsum available,
+					but the majority have suffered alteration in some form, by injected humour.
+				</p>
+				<div class="mt-8">
+					<input type="email"  name="email" id="" placeholder="Search you services" class="py-4 rounded-[8px] pl-[20px] pr-[180px]">
+					<input type="submit" value="Search" class="text-[#FFF] text-xl font-semibold px-10 py-4 bg-custom-deer rounded-[8px]">
+				</div>
+			</div>
+		</section>
+		<!-- }}} -->
+
+	</header>	
+	<!-- }}} -->
 </body>
 </html>
